@@ -4,6 +4,10 @@
   "description": "知乎移动网页版功能增强 Edge 扩展：补全被限制的功能（推荐流无限下滑、隐藏 App 内打开浮层等）",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pigbayspy/mobile-zhihu-hacker.git"
+  },
   "scripts": {
     "dev": "vite build --watch",
     "build": "tsc --noEmit && vite build",
