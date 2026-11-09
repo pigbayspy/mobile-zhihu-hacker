@@ -1,0 +1,18 @@
+{
+  "name": "zhihu-mobile-web-enhancer",
+  "version": "1.0.0",
+  "description": "知乎移动网页版功能增强 Edge 扩展：补全被限制的功能（推荐流无限下滑、隐藏 App 内打开浮层等）",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc --noEmit && vite build",
+    "zip": "node scripts/zip.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-static-copy": "^2.2.0"
+  }
+}
