@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "知乎移动网页增强",
-  "short_name": "知乎增强",
-  "version": "1.1.0",
-  "description": "补全知乎移动网页版被限制的功能：推荐流无限下滑、隐藏 App 内打开浮层等。本扩展不收集任何数据。",
+  "name": "__MSG_extensionName__",
+  "short_name": "__MSG_extensionShortName__",
+  "version": "1.1.1",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "zh_CN",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",

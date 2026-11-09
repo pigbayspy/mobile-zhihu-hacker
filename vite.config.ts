@@ -37,6 +37,7 @@ export default defineConfig({
             ),
         },
         { src: "assets/icons", dest: "." },
+        { src: "src/_locales", dest: "." },
       ],
     }),
   ],

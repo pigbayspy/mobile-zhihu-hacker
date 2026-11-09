@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "知乎移动网页增强",
+    "description": "扩展名称"
+  },
+  "extensionShortName": {
+    "message": "知乎增强",
+    "description": "扩展短名称"
+  },
+  "extensionDescription": {
+    "message": "补全知乎移动网页版被限制的功能：推荐流无限下滑、屏蔽 App 诱导组件、恢复移动端搜索栏。本扩展不收集任何数据。",
+    "description": "扩展描述"
+  }
+}

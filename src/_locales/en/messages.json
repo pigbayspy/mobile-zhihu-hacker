@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Zhihu Mobile Web Enhancer",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Zhihu Enhancer",
+    "description": "Extension short name"
+  },
+  "extensionDescription": {
+    "message": "Restores features restricted on Zhihu's mobile web version: infinite feed scrolling, blocking app-promotion components, and a working mobile search bar. This extension collects no data.",
+    "description": "Extension description"
+  }
+}
