@@ -1,9 +1,12 @@
 // 打包 dist 为 zip，供上传 Edge Add-ons
+// 产物文件名带版本号后缀，如 zhihu-mobile-web-enhancer-1.1.0.zip
 import { execFileSync } from "node:child_process";
-import { mkdirSync, rmSync, existsSync } from "node:fs";
+import { mkdirSync, rmSync, existsSync, readFileSync } from "node:fs";
+
+const { version } = JSON.parse(readFileSync("package.json", "utf-8"));
 
 const outDir = "release";
-const zipPath = `${outDir}/zhihu-mobile-web-enhancer.zip`;
+const zipPath = `${outDir}/zhihu-mobile-web-enhancer-${version}.zip`;
 
 mkdirSync(outDir, { recursive: true });
 if (existsSync(zipPath)) rmSync(zipPath);
