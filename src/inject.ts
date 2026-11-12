@@ -1,4 +1,5 @@
 import { registerFeature, startFeatures } from "./core/registry";
+import { shouldInject } from "./core/guard";
 import { infiniteFeed } from "./features/infinite-feed";
 import { blockAppPrompts } from "./features/block-app-prompts";
 import { searchEntry } from "./features/search-entry";
@@ -10,7 +11,7 @@ declare global {
   }
 }
 
-if (!window.__zhihuEnhancerLoaded) {
+if (!window.__zhihuEnhancerLoaded && shouldInject()) {
   window.__zhihuEnhancerLoaded = true;
 
   // ---- 功能注册表 ----
